@@ -20,10 +20,9 @@ group :development do
   gem 'spring',                '2.0.2'
   gem 'spring-watcher-listen', '2.0.1'
 end
-
+ 
 group :production do
-  gem 'pg', 'o.20.0' 
+  gem 'pg', '0.20.0'
 end
-
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
